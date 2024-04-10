@@ -38,8 +38,9 @@ body{
 }
 .tagline{
     margin-bottom: 2rem;
-    font-style: italic;
+    /* font-style: italic; */
     color: #333;
+    font-weight: 300;
 }
 
 i{
@@ -183,6 +184,7 @@ p{
     margin-top: 0rem;
     text-align: left;
     line-height: 1.4;
+    font-size: clamp(16px, 2.5vw, 22px);
 }
 
 footer{
@@ -208,9 +210,6 @@ footer{
 }
 
 @media (max-width: 610px) {
-    .tagline{
-        display: none;
-    }
     form h2{
         text-align: center;
     }
@@ -220,8 +219,8 @@ footer{
     #logo{
         max-width: 90%;
     }
-    p{
-        font-size: 12px;
+    .tagline{
+        font-size: 16px;
     }
     .footer-links{
         column-gap: 2rem;
