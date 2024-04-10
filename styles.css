@@ -220,13 +220,15 @@ footer{
         max-width: 90%;
     }
     .tagline{
-        font-size: 16px;
+        font-size: 20px;
+        font-weight: 400;
     }
     .footer-links{
         column-gap: 2rem;
     }
     p{
-        font-size: 15px;
+        font-size: 13px;
+        text-align: center;
     }
 }
 @media (max-width: 345px){
