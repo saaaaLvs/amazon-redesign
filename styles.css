@@ -17,7 +17,19 @@ body{
 
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FAD954", endColorstr="#C78943", GradientType=1 );
 
-    caret-color: red;
+    cursor: url('cursor.png'), auto;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 10);
 }
 
 #logo{
